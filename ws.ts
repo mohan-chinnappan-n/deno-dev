@@ -1,6 +1,6 @@
-const port = parseInt(Deno.args[0]);
+const portNum = parseInt(Deno.args[0]);
 
-const listener = Deno.listen({ port: 8000  });
+const listener = Deno.listen({ port: portnum  });
 
 // deno run --allow-net https://raw.githubusercontent.com/mohan-chinnappan-n/deno-dev/master/ws.ts  8000
 
